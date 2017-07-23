@@ -1,10 +1,7 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Integrating Netlify Form Handling in Gatsby
+---
+Example for integrating a basic contact form with Netlify’s form handling feature (based on the [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default))
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-## Deploy
+# Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/imorente/gatsby-netlify-form-example)
