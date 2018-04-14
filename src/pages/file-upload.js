@@ -20,7 +20,7 @@ export default class Contact extends React.Component {
 
   handleChange = e => {
     if (e.target.files) {
-      this.setState({ [e.target.name]: e.target.files });
+      this.setState({ [e.target.name]: e.target.files[0] });
     } else {
       this.setState({ [e.target.name]: e.target.value });
     }
