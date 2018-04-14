@@ -44,7 +44,7 @@ export default class Contact extends React.Component {
         >
           <p hidden>
             <label>
-              Don’t fill this out: <input name="bot-field" />
+              Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
           <p>
