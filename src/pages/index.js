@@ -10,7 +10,12 @@ export default class Index extends React.Component {
         <p>
           This is an example integrating Netlify’s form handling with Gatsby
         </p>
-        <Link to="/contact/">Go to contact form</Link>
+        <p>
+          <Link to="/contact/">Go to contact form</Link>
+        </p>
+        <p>
+          <Link to="/file-upload/">Go to file upload form</Link>
+        </p>
       </div>
     );
   }
