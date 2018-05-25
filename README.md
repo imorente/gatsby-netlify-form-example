@@ -22,7 +22,7 @@ environment variables to your site’s Settings > Build & deploy > Build environ
 ```
 echo SITE_RECAPTCHA_KEY=$SITE_RECAPTCHA_KEY >> env.production && gatsby build
 ```
-_Note: There’s probably a nicer way of making the `SITE_RECAPTCHA_KEY` environment variable available to Gatsby in production. This was just the quickest way I found to make it work without having to duplicate the variable_
+_Note: There’s probably a more elegant way to make the `SITE_RECAPTCHA_KEY` environment variable available to Gatsby in production. This was just the quickest way I found to make it work without having to duplicate the variable_
 
 To see the reCAPTCHA widget locally, add `SITE_RECAPTCHA_KEY=your-reCAPTCHA-API-site-key`
 to your local [.env.development](https://www.gatsbyjs.org/docs/environment-variables/) file.
