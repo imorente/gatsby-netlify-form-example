@@ -18,11 +18,13 @@ To make the reCAPTCHA example work in your own copy of this site, you’ll need 
 environment variables to your site’s Settings > Build & deploy > Build environment variables:
   - `SITE_RECAPTCHA_KEY` with your reCAPTCHA site key.
   - `SITE_RECAPTCHA_SECRET` with your reCAPTCHA secret key.
+
+**Important**: the environment variables *need* to be called `SITE_RECAPTCHA_KEY` and `SITE_RECAPTCHA_SECRET` for the Netlify backend to find them. If you add a `GATSBY_` prefix to the variable names, the Netlify backend won't recognize them and your form submissions won't be processed.
+
 3. Change the build command for your site to
 ```
 echo SITE_RECAPTCHA_KEY=$SITE_RECAPTCHA_KEY >> env.production && gatsby build
 ```
-_Note: There’s probably a more elegant way to make the `SITE_RECAPTCHA_KEY` environment variable available to Gatsby in production. This was just the quickest way I found to make it work without having to duplicate the variable_
 
 To see the reCAPTCHA widget locally, add `SITE_RECAPTCHA_KEY=your-reCAPTCHA-API-site-key`
 to your local [.env.development](https://www.gatsbyjs.org/docs/environment-variables/) file.
