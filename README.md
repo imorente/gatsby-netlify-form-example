@@ -33,4 +33,4 @@ to your local [.env.development](https://www.gatsbyjs.org/docs/environment-varia
 ## Troubleshooting
 
 ### Forms stop working after upgrading to Gatsby v2
-This can be caused by the offline-plugin. [Workaround](https://github.com/gatsbyjs/gatsby/issues/7997#issuecomment-419749232) is to use `?no-cache=1` in the POST url to prevent the service worker from handling form submissions (Thanks to [@phmu_office](https://twitter.com/phmu_office/status/1047810173417472000) for the heads up)
+This can be caused by the offline-plugin. [Workaround](https://github.com/gatsbyjs/gatsby/issues/7997#issuecomment-419749232) is to use `?no-cache=1` in the POST url to prevent the service worker from handling form submissions (Thanks to [@phmu_office](https://twitter.com/phmu_office/status/1047810173417472000) for the heads up ✨)
