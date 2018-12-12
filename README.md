@@ -23,7 +23,7 @@ environment variables to your site’s Settings > Build & deploy > Build environ
 
 3. Change the build command for your site to
 ```
-echo SITE_RECAPTCHA_KEY=$SITE_RECAPTCHA_KEY >> env.production && gatsby build
+echo SITE_RECAPTCHA_KEY=$SITE_RECAPTCHA_KEY >> .env.production && gatsby build
 ```
 This will make the SITE_RECAPTCHA_KEY available to the Gatsby build in production.
 
